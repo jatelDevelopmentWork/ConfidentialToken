@@ -27,7 +27,8 @@ confidential token 是基于 Alaya 的 WASM 智能合约平台 PIP-13 提案构�
 
 8. ConfidentialToken 隐私代币合约， 部署依赖 Registry 合约地址， ACL 里面注册的 Validator 合约版本和 Storage 合约版本。
 
-代码例子：
+代码例子，具体写法可以参考单元测试：
+
 ```java
     Token token = new Token();
 

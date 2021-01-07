@@ -28,7 +28,8 @@ Executing `./contracts/build.sh` will place the compiled wam files and abi files
 
 8. ConfidentialToken privacy token contract, the deployment depends on the Registry contract address, the Validator contract version and the Storage contract version registered in ACL.
 
-Code example:
+Code example, specific writing can refer to unit test:
+
 ```java
     Token token = new Token();
 
